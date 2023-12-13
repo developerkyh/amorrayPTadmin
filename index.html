@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG ADMINISTRATER</title>
+    <link rel="stylesheet" type="text/css" href="./default.css" />
+    <script src="./data.json" type="text/javascript"></script> <!-- 더미 데이터 -->
+</head>
+
+<body>
+    <div class="wrap">
+        <div id="modalPopup" class="modal">
+            <div class="modal-area">
+                <div class="modal-head">
+                    <h3>회원 수정</h3>
+                    <button type="button" class="close">X</button>
+                </div>
+                <div class="modal-body">
+                    <select id="target"></select>
+                </div>
+            </div>
+        </div>
+        <header>
+            <h1>BLOG ADMINISTRATER</h1>
+            <nav>
+                <ul>
+                    <li><a href="javascript:void(0);">회원관리</a></li>
+                    <li><a href="javascript:void(0);">메뉴관리</a></li>
+                    <li><a href="javascript:void(0);">게시물</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <h2></h2>
+            </aside>
+            <section class="main">
+                <table>
+                    <colgroup>
+                        <col widht="5%" />
+                        <col widht="10%" />
+                        <col widht="10%" />
+                        <col widht="5%" />
+                        <col widht="20%" />
+                        <col widht="10%" />
+                        <col widht="10%" />
+                    </colgroup>
+                    <caption>번호, 이름으로 구성된 표</caption>
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>이름</th>
+                            <th>SCHOOL</th>
+                            <th>LEVEL</th>
+                            <th>ADDRESS</th>
+                            <th>TEACHER</th>
+                            <th>MEMO</th>
+                            <th>STATUS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="student">
+                    </tbody>
+                </table>
+            </section>
+        </main>
+        <footer>
+            © 2007—2023 amorray
+        </footer>
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+
+</html>

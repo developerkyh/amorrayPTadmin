@@ -1,0 +1,30 @@
+ studentdata = [
+    {
+        "student": {
+            "num": 1334,
+            "name": "김학생",
+            "school": "부개초등학교",
+            "level": 4,
+            "address": "인천 부평구 부개동",
+            "teacher": "김여자",
+            "memo": "밝고 쾌활하며 인상이 좋다",
+        },
+        "dataset" : {
+            "code": "2294"
+        }
+    },
+    {
+        "student": {
+            "num": 1334,
+            "name": "김학생",
+            "school": "부개초등학교",
+            "level": 4,
+            "address": "인천 부평구 부개동",
+            "teacher": "김여자",
+            "memo": "밝고 쾌활하며 인상이 좋다",
+        },
+        "dataset" : {
+            "code": "2294"
+        }
+    },
+]
