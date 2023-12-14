@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle
+}
+
+caption {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); //IE6, IE7
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+body,
+nav,
+input,
+textarea,
+select,
+button,
+table {
+    font-family: Montserrat-Regular, Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #676767;
+}
+
+img,
+fieldset {
+    border: 0;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none
+}
+
+em,
+address {
+    font-style: normal
+}
+
+figure {
+    margin: 0
+}
+
+button {
+    border: 0 none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+* ul,
+* dl,
+* dt,
+* dd,
+* span {
+    margin: 0;
+    padding: 0;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+* label {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    outline: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
