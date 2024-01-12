@@ -31,9 +31,9 @@ window.onload = function(){
 
     buttons.forEach(item => {
         item.addEventListener('click', event => {
-            Select.component('school', studentData.school, item.dataset.code);
-            Select.component('teacher', studentData, item.dataset.code);
-            Select.component('name', studentData, item.dataset.code);
+            Select.component('school', studentData, item.dataset.code);
+            // Select.component('teacher', studentData, item.dataset.code);
+            // Select.component('name', studentData, item.dataset.code);
             
             if (layerPopup.classList.contains('active')) {
                 layerPopup.classList.remove('active');

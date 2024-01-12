@@ -14,7 +14,6 @@ export default class Select {
     }
 
     static component(target, data, code) {
-        console.log(data);
 
         this.getSelectReset(target); //기존 데이터 삭제
 
